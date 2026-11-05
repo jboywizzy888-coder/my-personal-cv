@@ -1,0 +1,124 @@
+/* FEATURED PROJECTS SECTION */
+.projects {
+    padding: 60px 24px 70px;
+    background: #0a0b0f;
+}
+
+.projects-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.projects-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.projects h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 34px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.all-projects {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 18px;
+    color: #f27b4a;
+    text-decoration: none;
+}
+
+.all-projects:hover {
+    text-decoration: underline;
+}
+
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-card {
+    padding: 36px 32px;
+    background: #11141a;
+    border: 1px solid #1f2229;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    border-color: #7a4128;
+    box-shadow: 0 0 40px rgba(242, 123, 74, 0.15);
+}
+
+.project-year {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    color: #8b8f99;
+    margin-bottom: 22px;
+}
+
+.project-card h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #e8e8ea;
+    margin-bottom: 16px;
+}
+
+.project-card p {
+    color: #8b8f99;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    padding: 6px 16px;
+    background: #1a1e26;
+    border: 1px solid #262b35;
+    border-radius: 20px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    color: #8b8f99;
+}
+
+.project-button{
+    display: flex;
+    margin-top: 30px;
+}
+
+/* DESKTOP */
+@media (min-width: 800px) {
+    .projects {
+        padding: 90px 8%;
+    }
+
+    .projects-inner {
+        margin: 0;
+    }
+
+    .projects-top {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .projects h2 {
+        font-size: 44px;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

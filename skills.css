@@ -1,0 +1,88 @@
+/* TECH STACK SECTION */
+.tech {
+    padding: 60px 24px 70px;
+    background: #0a0b0f;
+}
+
+.tech-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tech h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.tech-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tech-card {
+    padding: 32px 30px;
+    background: #11141a;
+    border: 1px solid #1f2229;
+    border-radius: 20px;
+}
+
+.tech-card h3 {
+    font-family: "JetBrains Mono", monospace;
+    color: #f27b4a;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.tech-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 11px 0;
+}
+
+.tech-name {
+    font-size: 18px;
+    color: #e8e8ea;
+}
+
+.tech-level {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #8b8f99;
+    white-space: nowrap;
+}
+
+.skill-button{
+    display: flex;
+    margin-top: 30px;
+}
+
+/* DESKTOP */
+@media (min-width: 800px) {
+    .tech {
+        padding: 90px 8%;
+    }
+
+    .tech-inner {
+        margin: 0;
+    }
+
+    .tech h2 {
+        font-size: 44px;
+    }
+
+    .tech-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

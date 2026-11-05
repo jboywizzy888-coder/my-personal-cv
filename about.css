@@ -1,0 +1,109 @@
+/* WHAT I DO */
+.services {
+    padding: 60px 24px 70px;
+    background: #0a0b0f;
+}
+
+.services-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.services h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 34px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #f27b4a;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    padding: 32px 30px;
+    background: #11141a;
+    border: 1px solid #1f2229;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #7a4128;
+    box-shadow: 0 0 40px rgba(242, 123, 74, 0.15);
+}
+
+.card h3 {
+    font-family: "JetBrains Mono", monospace;
+    color: #f27b4a;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.card p {
+    color: #8b8f99;
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.about-button{
+    display: flex;
+    margin-top: 30px;
+}
+
+@media (min-width: 800px) {
+    .services {
+        padding: 90px 8%;
+    }
+
+    .services-inner {
+        margin: 0;
+    }
+
+    .services h2 {
+        font-size: 44px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 800px) {
+    .navbar {
+        padding: 18px 8%;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        border: none;
+        padding: 0;
+        gap: 30px;
+    }
+
+    .hero {
+        padding: 110px 8% 110px;
+    }
+
+    .hero-inner {
+        margin: 0;
+    }
+
+    .hero h1 {
+        font-size: 64px;
+    }
+}
