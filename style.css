@@ -24,7 +24,7 @@ body {
     background: #0a0b0f;
     position: fixed;
     width: 100vw;
-    z-index: 10; 
+    z-index: 0;
 }
 
 .brand {
@@ -99,7 +99,7 @@ body {
 
 /* HERO */
 .hero {
-    padding: 60px 24px 70px;
+    padding: 90px 24px 70px;
     background-color: #0a0b0f;
     background-image:
         radial-gradient(ellipse at 30% 0%, rgba(242, 123, 74, 0.15), transparent 55%),

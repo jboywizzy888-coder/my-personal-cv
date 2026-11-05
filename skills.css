@@ -1,6 +1,6 @@
 /* TECH STACK SECTION */
 .tech {
-    padding: 60px 24px 70px;
+    padding: 90px 24px 70px;
     background: #0a0b0f;
 }
 
@@ -62,7 +62,7 @@
     white-space: nowrap;
 }
 
-.skill-button{
+.skill-button {
     display: flex;
     margin-top: 30px;
 }
