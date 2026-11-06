@@ -49,6 +49,11 @@
     margin-bottom: 20px;
 }
 
+.project-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
 .project-card:hover {
     border-color: #7a4128;
     box-shadow: 0 0 40px rgba(242, 123, 74, 0.15);
