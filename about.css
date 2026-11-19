@@ -57,6 +57,50 @@
     margin-top: 30px;
 }
 
+.footer {
+    padding: 50px 24px 45px;
+    background: #0a0b0f;
+    text-align: center;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.footer-name {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.footer-role {
+    font-size: 15px;
+    color: #8b8f99;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px 24px;
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    color: #8b8f99;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    color: #f27b4a;
+}
+
+.footer-copy {
+    font-size: 14px;
+    color: #8b8f99;
+}
+
+
 @media (min-width: 800px) {
     .services {
         padding: 90px 8%;

@@ -9,6 +9,7 @@
 .contact-inner {
     max-width: 700px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .contact .eyebrow {
@@ -32,6 +33,19 @@
 
 .contact .btn {
     display: inline-block;
+}
+
+.contact-button {
+    display: flex;
+    margin-top: 10px;
+    padding-right: 1370px;
+}
+
+.skill-buttonlast {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 /* FOOTER */
@@ -78,11 +92,7 @@
     color: #8b8f99;
 }
 
-.contact-button{
-    display: flex;
-    margin-top: 10px;
-    padding-right: 1370px;
-}
+
 
 /* DESKTOP */
 @media (min-width: 800px) {
